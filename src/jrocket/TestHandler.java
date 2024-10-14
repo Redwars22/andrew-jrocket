@@ -1,7 +1,8 @@
 package jrocket;
 
 /**
- * class TestHandler
+ * class TestHandler,
+ * it passes or fails a specific test
  */
 public class TestHandler {
 	private static int failedTests;
@@ -24,21 +25,31 @@ public class TestHandler {
 	}
 
 	/**
-	 * 
 	 * @return the number of failed tests
 	 */
 	public static int getFailedTests() {
 		return failedTests;
 	}
 
+	/**
+	 * Sets the number of failed tests
+	 * @param failedTests
+	 */
 	public static void setFailedTests(int failedTests) {
 		TestHandler.failedTests = failedTests;
 	}
 
+	/**
+	 * @return the number of passed tests
+	 */
 	public static int getPassedTests() {
 		return TestHandler.passedTests;
 	}
 
+	/**
+	 * Sets the number of passed tests
+	 * @param passedTests
+	 */
 	public static void setPassedTests(int passedTests) {
 		TestHandler.passedTests = passedTests;
 	}
