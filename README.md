@@ -1,8 +1,8 @@
-# andrew-jrocket
+# Andrew JRocket
 
 ![](https://cdn1.iconfinder.com/data/icons/space-filled-outline-35/64/Rocket-256.png)
 
-How to use JRocket:
+# SETTING UP JROCKET
 
 - Put it somewhere in your project.
 - Make the class you want to run JRocket at extend the JRocketTesting class
@@ -23,3 +23,36 @@ public class Example extends JRocketTesting {
 	}
 }
 ```
+
+# MATCHERS
+There are more than 20 matchers in JRocket.
+
+## COMPARISON
+- `assertEquals(int x, int y)`
+- `assertEquals(float x, floats y)`
+- `assertEquals(double x, double y)`
+- `assertGreaterThan(int x, int y)`
+- `assertGreaterThan(float x, float y)`
+- `assertGreaterThan(double x, double y)`
+- `assertLessThan(int x, int y)`
+- `assertLessThan(float x, float y)`
+- `assertLessThan(double x, double y)`
+- `assertGreaterOrEqual(int x, int y)`
+- `assertGreaterOrEqual(float x, float y)`
+- `assertGreaterOrEqual(double x, double y)`
+- `assertLessOrEqual(int x, int y)`
+- `assertLessOrEqual(float x, float y)`
+- `assertLessOrEqual(double x, double y)`
+
+## STRING COMPARISON
+- `assertEquals(String x, String y)`
+
+## BOOLEAN EXPRESSIONS
+- `assertTrue(boolean expr)`
+- `assertFalse(boolean expr)`
+
+## UNIDIMENSIONAL ARRAYS
+- `assertEquals(int [] x, int [] y)`
+- `assertEquals(float [] x, floats [] y)`
+- `assertEquals(double [] x, double [] y)`
+- `assertEquals(String [] x, String [] y)`
