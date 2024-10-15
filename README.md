@@ -1,15 +1,15 @@
 # Andrew JRocket
 
-![](https://cdn1.iconfinder.com/data/icons/space-filled-outline-35/64/Rocket-256.png)
+![logo](https://cdn1.iconfinder.com/data/icons/space-filled-outline-35/64/Rocket-256.png)
 
 # SETTING UP JROCKET
 
-- Put it somewhere in your project.
+- Download and put it somewhere in your project.
 - Make the class you want to run JRocket at extend the JRocketTesting class
-- Run the begin() function and pass the name of the test suit as its argument.
+- Run the `begin()` function and pass the name of the test suit as its argument.
 - Add the matchers and run the tests after that function.
-- Finish the text with end().
-- Once the end() function is run, a report will be print to the screen with the execution time and the number of passed and failed tests.
+- Finish the text with `end()`.
+- Once the `end()` function is run, a report will be print to the screen with the execution time and the number of passed and failed tests.
 
 ```java
 public class Example extends JRocketTesting {
